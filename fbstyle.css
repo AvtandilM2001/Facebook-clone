@@ -1,0 +1,118 @@
+* {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #f0f2f5;
+}
+
+#allinone {
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#sign {
+  padding-top: 7%;
+  padding-right: 23%;
+  padding-left: none;
+}
+
+#table {
+  position: absolute;
+  background-color: white;
+  border-radius: 3%;
+  width: 21%;
+  height: 336px;
+  -webkit-box-shadow: 0px 0px 3px gray;
+  box-shadow: 0px 0px 3px gray;
+}
+
+#inp1 {
+  position: relative;
+  width: 91%;
+  height: 95%;
+  left: 4%;
+  top: 25%;
+  font-size: 15px;
+}
+
+#inp2 {
+  position: relative;
+  width: 91%;
+  height: 95%;
+  left: 4%;
+  top: 44%;
+  font-size: 15px;
+}
+
+#subm {
+  position: relative;
+  top: 57%;
+  left: 4%;
+  width: 93%;
+  height: 96%;
+  background-color: #1877f2;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+#frgpsw {
+  position: relative;
+  left: 36.5%;
+  top: 23px;
+  color: #18a4f7;
+  font-size: 16px;
+}
+
+#line {
+  position: relative;
+  width: 90%;
+  height: 0.001px;
+}
+
+#nwacc {
+  position: relative;
+  top: -25%;
+  left: 26%;
+  height: 90%;
+  width: 50%;
+  background-color: #42b72a;
+  border: none;
+  font-size: 14px;
+  color: white;
+  cursor: pointer;
+}
+
+.celeb {
+  position: relative;
+  left: 16%;
+  top: 375px;
+  text-decoration: none;
+  color: black;
+}
+
+.celeb:hover {
+  width: 100%;
+  -webkit-transition: width .3s;
+  transition: width .3s;
+}
+
+#leftside {
+  padding-top: 10%;
+  padding-left: 15%;
+  padding-right: none;
+  font-family: tahoma;
+}
+
+footer {
+  position: absolute;
+  top: 100%;
+  background-color: white;
+}
+/*# sourceMappingURL=fbstyle.css.map */
